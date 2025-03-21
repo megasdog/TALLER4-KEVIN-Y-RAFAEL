@@ -33,12 +33,12 @@ def delete_user(id):
     cursor.execute("DELETE FROM users WHERE id = ?", (id,))
     conn.commit()
 
-create_user("Alice", "alice@mail.com","3194769135", "pereira", "cra21#2-81")
-create_user("Wanda", "wanda@mail.com", "3102245252","manisales","calle53#48-28")
-create_user("numar", "numar@mail.com","3022719674","bucaramanga","av42#25-32")
-create_user("gabriela", "gabriela@mail.com","3114880711","floridablanca","cra12#200-105")
-create_user("rafael", "rafael@mail.com","3182853392","giron","cra31#16-28")
-create_user("kevin", "kevin@mail.com","3161735505","piedecuesta","calle8#22-28")
+#create_user("Alice", "alice@mail.com","3194769135", "pereira", "cra21#2-81")
+#create_user("Wanda", "wanda@mail.com", "3102245252","manisales","calle53#48-28")
+#create_user("numar", "numar@mail.com","3022719674","bucaramanga","av42#25-32")
+#create_user("gabriela", "gabriela@mail.com","3114880711","floridablanca","cra12#200-105")
+#create_user("rafael", "rafael@mail.com","3182853392","giron","cra31#16-28")
+#create_user("kevin", "kevin@mail.com","3161735505","piedecuesta","calle8#22-28")
 
 
 interacion=10
