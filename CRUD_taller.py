@@ -22,11 +22,11 @@ def update_telefono(id, telefono):
     conn.commit()
 
 def update_email(id, email):
-    cursor.execute("UPDATE users SET email = ? WHERE id = ?", (name, email, id))
+    cursor.execute("UPDATE users SET email = ? WHERE id = ?", ( email, id))
     conn.commit()
 
 def update_user(id, telefono, email, direccion,ciudad,):
-    cursor.execute("UPDATE users SET telefono = ?, email = ?, direccion = ?, ciudad =? WHERE id = ?", (telefono, email, dirrecion, ciudad, id))
+    cursor.execute("UPDATE users SET telefono = ?, email = ?, direccion = ?, ciudad =? WHERE id = ?", (telefono, email, direccion, ciudad, id))
     conn.commit()
 
 def delete_user(id):
