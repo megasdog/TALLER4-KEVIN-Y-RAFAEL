@@ -79,7 +79,7 @@ while interacion !=0:
         ciudad = input("ingrese el ciudad: ")
         update_user(id, telefono, email, direccion,ciudad,)
     if interacion==5:
-        read_users()
+        print(read_users())
     if interacion==6:
         id = int(input("ingrese el id del usuario: "))
         delete_user(id)
